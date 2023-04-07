@@ -6,7 +6,8 @@
     padding: 0px;
 }
 body{
-    background-color: #0a588f;
+    background-image: url(../imagem/filhotes-beagles-bocejou-viu-a-lingua.jpg);
+    background-color: #ffffff;
 }
     
 header{
@@ -14,6 +15,7 @@ header{
 }
 header > h1{
     padding: 10px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #ffffff;
@@ -38,6 +40,7 @@ menu > ul{
 menu a{
     display: block;
     padding: 10px;
+    margin-bottom: 5px;
     text-align: center;
     text-decoration: none;
     background-color: #498ab1;
@@ -46,7 +49,7 @@ menu a{
 
 }
 menu > ul > li > a:hover{
-    background-color: #341c6f ;
+    background-color: #000000 ;
     cursor: pointer;
 }
 main{
@@ -54,19 +57,21 @@ main{
   margin: auto;
   margin-top: 10px;
   padding: 20px;
-  background: url(../imagem/beagle-3877115_1920.jpg) no-repeat center ;
-  background-color: #121212;
+
   
 
 }
 article{
     padding: 20px;
-    background-color: rgba(255, 255, 255,0.3);
+    background-color: rgba(255, 255, 255,0.4);
+   
     
 }
 article > p{
     text-align: justify;
+    font-family: 'Oswald';
     font-size: 17px;
+    color: #000000;
     margin-bottom: 20px;
     text-indent: 20px;
 }
@@ -79,18 +84,22 @@ article > h2{
 
 }
 footer{
-    border-top: 2px solid white;
     padding: 20px;
-    background-color: #0a588f;
+    background-color: #024f87;
 }
-footer > ul > li{
+footer{
     display: block;
-    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
 }
-ul > li > a >img{
+ a >img{
+    display: inline-block;
     width: 30px;
     height: 30px;
     margin: 10px;
     border-radius: 50%;
-    
+}
+a:hover{
+    border-bottom: 2px solid white;
 }
